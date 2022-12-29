@@ -1,0 +1,362 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+
+
+body{
+    font-family: "Adobe Garamond Pro";
+    font-weight: bold;
+    padding-top: 50px;
+}
+.menu-scroll {
+    font-family: 'Droid Arabic Kufi', serif;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 300;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-color: /* rgba(57, 119, 44, 0.64) */ white;
+    color: green !important;
+    -webkit-transition:all .3s;
+    -moz-transition:all .3s;
+    transition:all .3s;
+    height: 50px;
+}
+
+.menu-scroll * {
+
+    color:#738278 !important;
+    font-weight: bold;
+    font-size: 14px;
+    padding-right: 10px;
+}
+@media(max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default {
+        border-color: transparent;
+        font-size: 16px;
+        background-color: white;
+        text-align: center;
+    }
+}
+
+@media (min-width:1000px) {
+
+.navbar-left{
+    margin-left: 176px;
+
+}
+    /*
+.dropdown .dropdown-toggle{
+    background-color: #1b6d85;+
+    border-radius: 10px ;
+    text-align: center;
+}
+.dropdown-menu li>a{
+    width: 200px;
+}*/
+
+}
+
+/*.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+    content: "";
+    border-top: 0;
+    border-bottom: 4px dashed;
+    border-bottom: 4px solid \9;
+}
+*/
+.stat{
+
+    text-align: center;
+    border: 1px solid;
+    margin: 10px 0px 30px 0px !important;
+    border-radius: 13px;
+    box-shadow: 3px 4px 21px rgba(162, 167, 161, 0.6);
+    padding-bottom: 10px;
+    overflow: hidden;
+ }
+
+.stat h3{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Adobe Garamond Pro";
+    color: white;
+    padding: 25px;
+    margin: 0px;
+    height: 47px;
+    line-height: 3px;
+    line-height: -moz-block-height;
+
+}
+.panel-body .content{
+    border: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.s1,.s4,.s3,.s2{
+    background: gray;
+}
+
+.stat a{
+    text-decoration: none;
+    line-height: 76px;
+    font-size: 22px;
+    color: black;
+}
+.stat a:hover{
+    font-size: 25px;
+}
+
+.panel-heading span{
+    font-family: "Adobe Garamond Pro";
+    font-weight: bold;
+
+}
+textarea{
+    width: 100%;
+    height: 160px;
+    padding: 10px;
+    border-radius: 6px;
+    border-color: black;
+    margin-top: 61px;
+}
+
+.panel-body .name,.panel-body .email{
+    margin: 1px 50px 10px 2px;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.panel-body .email{
+color: black;
+
+}
+.panel-body .content{
+    margin: 0;
+    padding: 0;
+}
+
+.latestuser{
+    margin-bottom: 0;
+}
+.latestuser li{
+    padding: 5px 0;
+    overflow: hidden;
+
+}
+.latestuser li a span {
+    font-size: 25px;
+}
+.latestuser .btn-success{
+    padding: 5px 8px;
+    font-size: 12px;
+}
+
+
+form{
+    margin: 80px auto;
+
+
+}
+
+
+@media (max-width: 768px){
+    form{
+        margin: 63px auto;
+    }
+}
+
+@media (min-width: 768px){
+    form {
+        width: 500px;
+        margin-top: 40px;
+    }
+}
+
+form h2 {
+    background-color: #F5F5F5;
+    color: #333;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 30px
+
+}
+
+form h2 span {
+    color: black;
+}
+
+form{
+    background-color: #FFF;
+    border-radius: 5px;
+    overflow: hidden;
+}
+form .wrap{
+    position: relative;
+    background: #fafafa;
+    border: 1px solid black;
+    color: #666;
+    width: 100%;
+    margin: 40px auto 0;
+   cursor: pointer;
+}
+
+/* input[type="file"]{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 2;
+
+} */
+
+form .wrap{
+    padding: 0;
+    position: relative;
+}
+
+form .wrap span{
+    display: inline-block;
+    padding: 10px 18px;
+    float: right;
+}
+form .wrap i{
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    font-size: 28px;
+    color: saddlebrown;
+    z-index: 1;
+}
+.stat .s2 h2{
+    margin-top: 0;
+   font-family: "Perpetua Titling MT";
+
+}
+
+.stat .s2{
+    padding: 10px;
+    background-color: #35344c38;
+}
+
+.stat .gullary img{
+    margin-top: 20px;
+}
+.stat .gullary{
+    padding: 10px;
+}
+.stat .data{
+    padding: 20px;
+}
+.stat .control{
+    padding-top: 20px;
+}
+.stat .control a{
+    line-height: 15px;
+}
+.stat p .info{
+    font-size: 18px;
+    color: #6792c8;
+    font-family: "latobold";
+}
+.stat p .title{
+    font-size: 20px;
+
+    color: darkslategrey;
+    padding: 8px;
+}
+
+form input[type="submit"] {
+    padding: 15px;
+    background-color: #969e97a2;
+    border-radius: 0;
+    width: 20%;
+    margin: 70px auto;
+    border-radius: 10px
+}
+@media (max-width: 768px){
+    form{
+        margin-top:20px;
+    }
+}
+#error{
+    color:red;
+    direction: rtl;
+    font-size: 16px;
+
+}
+
+.container .order{
+    border: 4px solid gray;
+    padding: 49px;
+    background-color: #f9f9ff;
+    border-radius: 12px;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 10px;
+
+}
+
+
+
+
+.panel{
+    margin-top: 15px;
+}
+
+.table-responsive{
+    border-radius: 10px;
+}
+
+.table-responsive table th{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(3,3,3,.5);
+    border-radius: 4px;
+}
+.table-responsive table tr:nth-child(odd){
+    background-color: #f5f5f5;
+
+
+}
+
+.table-responsive table td{
+    color: #232323;
+    font-size: 16px;
+
+}
+.miniform{
+    margin: 0 auto;
+    display: inline;
+ }
+
+ .fa-upload:before{
+    color:  #5de75d;
+ }
